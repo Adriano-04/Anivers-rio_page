@@ -1,7 +1,6 @@
 @use 'hero';
-@use 'components/info_bar';
-@use 'components/buttons';
-@use 'components/events';
+@use 'info_bar';
+@use 'events';
 @use 'variables';
 
 * {

@@ -1,4 +1,4 @@
-@use '../variables';
+@use 'variables';
 
 .info__bar {
     padding: 16px 24px;
@@ -8,7 +8,8 @@
 
     &__info {
         display: flex;
-        gap: 40px;
+        gap: 120px;
+        margin: 0 auto;
     }
 
     &__item {
@@ -27,6 +28,7 @@
 
         &__info {
             display: block;
+            text-align: center;
         }
 
         &__item {
